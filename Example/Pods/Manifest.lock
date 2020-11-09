@@ -1,0 +1,16 @@
+PODS:
+  - QuangTestLib (0.1.0)
+
+DEPENDENCIES:
+  - QuangTestLib (from `../`)
+
+EXTERNAL SOURCES:
+  QuangTestLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QuangTestLib: bbe106e38d0fa29919dca4690a63c3b7b43b4195
+
+PODFILE CHECKSUM: 2cbe8ce6554bcbc9546ed9cbcb17e7b04a77afb0
+
+COCOAPODS: 1.9.1

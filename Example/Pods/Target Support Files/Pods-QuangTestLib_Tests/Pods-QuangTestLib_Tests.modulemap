@@ -1,0 +1,6 @@
+framework module Pods_QuangTestLib_Tests {
+  umbrella header "Pods-QuangTestLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

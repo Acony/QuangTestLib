@@ -1,0 +1,22 @@
+{
+  "name": "QuangTestLib",
+  "version": "0.1.0",
+  "summary": "A short description of QuangTestLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Acony/QuangTestLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Acony": "thanhquang.huynh@airpay.com"
+  },
+  "source": {
+    "git": "https://github.com/Acony/QuangTestLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QuangTestLib/Classes/**/*"
+}

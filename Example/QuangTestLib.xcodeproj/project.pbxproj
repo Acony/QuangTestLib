@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033851C9A9501928D7A33152 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		033851C9A9501928D7A33152 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		174F6F576C8C39ED50B861E2 /* Pods-QuangTestLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangTestLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-QuangTestLib_Example/Pods-QuangTestLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1A3153EAB485FEAC30712D26 /* Pods-QuangTestLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangTestLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QuangTestLib_Tests/Pods-QuangTestLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		343E064C9B8DA833BECA4825 /* Pods_QuangTestLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuangTestLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37A3FC90B8E3DB7A37B54C34 /* Pods-QuangTestLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangTestLib_Example.release.xcconfig"; path = "Target Support Files/Pods-QuangTestLib_Example/Pods-QuangTestLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4983F03F1122D8F033231438 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4983F03F1122D8F033231438 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5825C6299DCC340CB5C4E815 /* Pods-QuangTestLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuangTestLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-QuangTestLib_Tests/Pods-QuangTestLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QuangTestLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuangTestLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		C86C59C1616F7CDB5CD634DF /* Pods_QuangTestLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuangTestLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBEE4E1E24CB0E2F833DAA5E /* QuangTestLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QuangTestLib.podspec; path = ../QuangTestLib.podspec; sourceTree = "<group>"; };
+		CBEE4E1E24CB0E2F833DAA5E /* QuangTestLibUpdate1.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QuangTestLibUpdate1.podspec; path = ../QuangTestLibUpdate1.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CBEE4E1E24CB0E2F833DAA5E /* QuangTestLib.podspec */,
+				CBEE4E1E24CB0E2F833DAA5E /* QuangTestLibUpdate1.podspec */,
 				033851C9A9501928D7A33152 /* README.md */,
 				4983F03F1122D8F033231438 /* LICENSE */,
 			);
@@ -156,7 +156,6 @@
 				1A3153EAB485FEAC30712D26 /* Pods-QuangTestLib_Tests.debug.xcconfig */,
 				5825C6299DCC340CB5C4E815 /* Pods-QuangTestLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

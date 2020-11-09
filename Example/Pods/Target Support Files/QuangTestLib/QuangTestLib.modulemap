@@ -1,0 +1,6 @@
+framework module QuangTestLib {
+  umbrella header "QuangTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

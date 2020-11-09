@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QuangTestLib_Example' do
+  pod 'QuangTestLib', :path => '../'
+
+  target 'QuangTestLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
